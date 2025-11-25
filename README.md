@@ -33,18 +33,18 @@ La aplicación permite tanto cifrar como descifrar, y funciona con mayúsculas, 
 
 > 🖥️ Características principales
 >
-> 🧼 Interfaz limpia estilo vaporwave **(ttkbootstrap)**
->
-> ⏳ Ventana de carga animada
->
-> 📝 Redacción de correos en un editor tipo bloc de notas
->
-> 🔐 Cifrado instantáneo
->
-> 📬 Ventana dedicada para agregar destinatario
->
-> ✔️ Notificaciones tipo Toast
->
-> 📁 Guarda automáticamente el mensaje cifrado en un archivo TXT
->
-> 🔓 Modo de desencriptación independiente
+>> 🧼 Interfaz limpia estilo vaporwave **(ttkbootstrap)**
+>>
+>> ⏳ Ventana de carga animada
+>>
+>> 📝 Redacción de correos en un editor tipo bloc de notas
+>>
+>> 🔐 Cifrado instantáneo
+>>
+>> 📬 Ventana dedicada para agregar destinatario
+>>
+>> ✔️ Notificaciones tipo Toast
+>>
+>> 📁 Guarda automáticamente el mensaje cifrado en un archivo TXT
+>>
+>> 🔓 Modo de desencriptación independiente
