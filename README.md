@@ -31,20 +31,20 @@ Usado para cargar, convertir y mostrar imágenes (como el logo animado).
 El cifrado está definido en el archivo cifrado.py, donde cada letra del alfabeto se sustituye por otra según un diccionario propio creado desde cero.
 La aplicación permite tanto cifrar como descifrar, y funciona con mayúsculas, minúsculas y saltos de línea.
 
-> 🖥️ Características principales
+## 🖥️ Características principales
+
+> 🧼 Interfaz limpia estilo vaporwave **(ttkbootstrap)**
 >
->> 🧼 Interfaz limpia estilo vaporwave **(ttkbootstrap)**
->>
->> ⏳ Ventana de carga animada
->>
->> 📝 Redacción de correos en un editor tipo bloc de notas
->>
->> 🔐 Cifrado instantáneo
->>
->> 📬 Ventana dedicada para agregar destinatario
->>
->> ✔️ Notificaciones tipo Toast
->>
->> 📁 Guarda automáticamente el mensaje cifrado en un archivo TXT
->>
->> 🔓 Modo de desencriptación independiente
+> ⏳ Ventana de carga animada
+>
+> 📝 Redacción de correos en un editor tipo bloc de notas
+>
+> 🔐 Cifrado instantáneo
+>
+> 📬 Ventana dedicada para agregar destinatario
+>
+> ✔️ Notificaciones tipo Toast
+>
+> 📁 Guarda automáticamente el mensaje cifrado en un archivo TXT
+>
+> 🔓 Modo de desencriptación independiente
