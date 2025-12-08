@@ -123,18 +123,6 @@ class VentanaDestinatario(ttk.Toplevel):
             ).show_toast()
             return
 
-        # Guardar destinatario y texto cifrado
-import ttkbootstrap as ttk
-from ttkbootstrap.constants import *
-from ttkbootstrap.toast import ToastNotification
-import tkinter as tk
-import time
-import threading
-import cifrado
-from PIL import Image, ImageTk
-from email.message import EmailMessage
-import smtplib
-
 class VentanaCarga(ttk.Toplevel):
     def __init__(self, master, imagen_path="logo.png"):
         super().__init__(master)
@@ -266,8 +254,8 @@ class VentanaDesencriptacion(ttk.Toplevel):
 
     def desencriptar(self):
         try:
-            cifrado = self.entry_cifrado.get("1.0", "end-1c").strip()
-            texto_limpio = cifrado.descifrar_texto(cifrado)
+            texto_cifrado = self.entry_cifrado.get("1.0", "end-1c").strip()
+            texto_limpio = cifrado.descifrar_texto(texto_cifrado)
             self.mostrar_texto_limpio(texto_limpio)
         except Exception as e:
             ToastNotification(
